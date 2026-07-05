@@ -20,7 +20,6 @@ package() {
 	install -dm755 ${pkgdir}${_destname2}
 	cp -r ${srcdir}${_destname2}/* ${pkgdir}${_destname2}
 	
-    chmod 544 ${pkgdir}/usr/share/gnome-shell/parch-gnome-shell-theme.gresource
     chmod 544 ${pkgdir}/etc/dconf/db/gdm.d/95-parch-gdm-config
     chmod 544 ${pkgdir}/etc/gdm/gdm-login-logo
 }
